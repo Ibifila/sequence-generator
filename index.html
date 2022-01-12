@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic Sequence</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="heading">
+        <h1>arithmetic progression generator</h1>
+        <p>
+            <em>This calculator will help you generate the numbers of any arithmetic progression sequence of your
+                choice.</em>
+        </p>
+    </div>
+    <main>
+        <div class="sequence-box" id="sequence-box">
+            <h3 id="sequence"></h3>
+        </div>
+        <div class="col-name" id="col-name">
+            <label for="initial-val">Enter the initial value for the series: <input type="number" name="initial-val"
+                    id="initial-val" required placeholder="Enter initial value" /></label>
+            <label for="increment-val">Enter increment value for the series: <input type="number" name="increment-val"
+                    id="increment-val" required placeholder="Enter increment value" /></label>
+            <button class="btn decrease" id="decrease">Decrease</button>
+            <button class="btn reset" id="reset">Reset</button>
+            <button class="btn increase" id="increase">Increase</button>
+        </div>
+    </main>
+
+    <!-- javascript -->
+    <script src="app.js"></script>
+</body>
+
+</html>
